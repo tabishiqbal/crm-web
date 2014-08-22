@@ -1,0 +1,115 @@
+/*  ========================================
+
+	Fonts: ;
+	
+	COLOUR PALLET
+	---------------------
+
+	Cream Can:  #F5D76E;
+	Red:		#C0141B
+	blue:		#03A6CE
+
+=========================================  */
+
+
+
+
+
+/* ============== GENERAL =============== */
+
+* {
+	margin: 0;
+	padding: 0;
+	font-family: 'Lato', sans-serif;
+	-webkit-font-smoothing: antialiased;
+	text-rendering: optimizelegibility;
+}
+
+html, body {
+	margin: 0;
+	padding: 0;
+}
+
+.container {
+	margin: 0 auto;
+	width: 960px;
+}
+
+
+/* ========== HEADER ========== */
+
+.heading {
+	padding: 30px;
+}
+
+
+.nav {
+	background-color: #03A6CE;
+	padding-top: 20px;
+	padding-bottom: 45px;
+}
+
+#top-left {
+	float: right;
+}
+
+nav {
+	
+	color: white;
+	top: 0;
+	left: 0;
+	margin: 0 auto;
+	
+
+}
+
+nav > ul {
+	margin: 0 auto;
+	text-align: center;
+	
+
+
+}
+
+
+nav > ul > li {
+	display: inline-block;
+	margin: 0 auto;
+	padding: 4px;
+	text-decoration: none;
+	font-size: 14px;
+	font-weight: 700;
+
+}
+
+a {
+	text-decoration: none;
+	color: white;
+}
+
+a:hover{
+	color: #C5EFF7;
+}
+
+
+
+}
+
+/* ========== TYPOGRAPHY ========== */
+
+
+h1 {
+	font-size: 45px;
+	padding: 10px;
+}
+
+h4 {
+	margin-top: 10px;
+}
+
+
+/* ========== NEW CONTACT ========= */
+
+.form > input {
+	display: block;
+}
