@@ -3,11 +3,31 @@
 </div>
 
 
-	<form class="form" action="/contacts" method="post">
-		<input type="text" name="first_name">
-		<input type="text" name="last_name">
-		<input type="text" name="email">
-		<input type="text" name="note">
-		<input type="submit" name="Submit">
+	<form class="new_contact_form" action="/contacts" method="post">
+		<ul>
+			<li>
+				<label for="First Name">First Name</label>
+				<input type="text" name="first_name" placeholder="John">
+			</li>
+
+			<li>
+				<label for="Last Name">Last Name</label>
+				<input type="text" name="last_name" placeholder="Doe">
+			</li>
+
+			<li>
+				<label for="Email">Email</label>
+				<input type="text" name="email" placeholder="john_doe@example.com">
+			</li>
+		
+			<li>
+				<label for="note">Notes</label>
+				<input type="text" name="note">
+			</li>	
+			
+			<li>
+				<input type="submit" name="Submit">
+			</li>
+		</ul>
 	</form>
 

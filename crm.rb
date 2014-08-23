@@ -78,14 +78,20 @@ put '/contacts/:id' do
 		raise Sinatra::NotFound
 	end
 end
+	
 
+post '/contacts/:id' do
 
-delete '/contacts/:id' do
 	@contact = Contact.get(params[:id].to_i)
 	if @contact
 		@contact.destroy
+
 		redirect to('/contacts')
 	else
 		raise Sinatra::NotFound
 	end
 end
+
+
+
+
